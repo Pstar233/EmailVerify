@@ -1,0 +1,42 @@
+mail:
+  #一个邮箱能绑定的数量
+  quantity: 3
+  #验证码失效时间,单位秒
+  lapse: 600
+  debug: false # 是否开启调试模式
+  host: "smtp.qq.com"
+  port: 465
+  username: "123456789@qq.com"
+  #密码或者授权码
+  password: "password"
+  properties:
+    mail.smtp.auth: true
+    mail.smtp.starttls.enable: false
+    #是否使用ssl
+    mail.smtp.ssl.enable: true
+    mail.smtp.ssl.trust: "smtp.qq.com"
+
+#指定玩家验证时的邮箱
+designatemail:
+  #设置为 false 允许使用任何邮箱
+  enable: false
+  mail:
+    - "@qq.com"
+    - "@163.com"
+
+sendermess:
+  bindmess:
+    title: "验证你的邮箱"
+    path: "{player} 验证码是 {Captcha} "
+  unbindmess:
+    title: "解绑邮箱验证码"
+    path: "{player} 解绑验证码是 {Captcha}"
+
+commands:
+  #下面是验证成功时执行的命令，支持papi
+  reward:
+    - "playsound minecraft:entity.experience_orb.pickup ambient %player_name%"
+
+  #解除绑定时执行的命令
+  unbind:
+    - "playsound minecraft:entity.experience_orb.pickup ambient %player_name%"

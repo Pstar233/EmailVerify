@@ -1,0 +1,20 @@
+name: EmailVerify
+version: '1.6'
+author: P_star
+main: EmailVerify.emailVerify.EmailVerify
+api-version: '1.21'
+folia-supported: true
+depend:
+  - PlaceholderAPI
+commands:
+  bindmail:
+    description: "绑定邮箱的指令"
+  unbindmail:
+    description: "解除绑定邮箱的指令"
+  mailadmin:
+    description: email admin command
+    default: op
+permissions:
+  emailverification.admin:
+    description: "管理员命令"
+    default: op
