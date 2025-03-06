@@ -21,4 +21,4 @@ EmailVerify用于邮箱验证的插件支持paper以及Folia，1.21.1
 
 
 ## 插件配置文件介绍
-![]([https://socialify.git.ci/HaHaWTH/AdvancedSensitiveWords/image?description=1&descriptionEditable=One-stop-shop%20ultimate%20anti-swear%20solution%20for%20Minecraft&font=Inter&language=1&name=1&stargazers=1&theme=Auto](https://s21.ax1x.com/2025/03/05/pEJqmrV.png))
+![img](https://s21.ax1x.com/2025/03/05/pEJqmrV.png)
